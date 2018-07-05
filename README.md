@@ -3,11 +3,38 @@ by Gregory Urman
 
 www.linkedin.com/in/gregoryurman  
 
-
-# Monte_Carlo-as_applied_to_GridWorld
-
+_ _scroll to the bottom to see a list of reference links, please_ _
 
 
+# Monte Carlo Method as applied to GridWorld #
+
+In this blog, we will discuss the Monte Carlo Method (a fundamental concept in Reinforcement Learning) as it relates to our program, GridWorld. It would be helpful for the reader to look at the following links to provide better context:
+
+- https://user-images.githubusercontent.com/22970879/42120041-d7145168-7bd1-11e8-8f11-42546269f56e.png
+
+- https://user-images.githubusercontent.com/22970879/42313209-65c09134-7fff-11e8-9e06-2b0f66338aa4.png
+
+- https://github.com/gurman24/What-are-States-and-State-to-State-Transitions-
+
+
+Now that we are caught up, "Monte Carlo methods are a broad class of computational algorithms that rely on repeated random sampling to obtain numerical results. Their essential idea is using randomness to solve problems that might be deterministic in principle." [1] It might also interest the reader to know that Monte Carlo methods can also be applied to "what if" scenarios, computer graphics, Artificial intelligence for games, and even Finance and Business!!! [same source] 
+
+To borrow from another source:
+
+- Monte carlo records info from running the entire simulation
+- involves episodic interaction with the system/environment
+- Each episode involves "playing the game"
+- Learn from repeated simulated experience
+- Policy evaluation uses
+ - State-value pairs, which is the estimate of the value of State S (the current State)
+- Policy update will use
+  - State, action, and value triples (s; a; G), which is an estimate of the Q-value state-action pairs
+-  Eeffective Monte Carlo algorithms need to ensure that all state-action pairs are sampled, and maybe even repeatedly 
+- Exploring using Monte Carlo methods may involve using Epsilon-Greedy algorithms similar to Multi-Armed Bandit [2] 
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+# Conclusion: #
 
 
 
@@ -18,7 +45,7 @@ www.linkedin.com/in/gregoryurman
 
 
 
+[1] = https://en.wikipedia.org/wiki/Monte_Carlo_method
 
-
-
+[2] = Dr. Hart slides, Regis University 2018
 
