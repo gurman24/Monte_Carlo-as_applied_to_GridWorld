@@ -3,7 +3,7 @@ by Gregory Urman
 
 www.linkedin.com/in/gregoryurman  
 
-_ _scroll to the bottom to see a list of reference links, please_ _
+_scroll to the bottom to see a list of reference links, please_
 
 
 # Monte Carlo Method as applied to GridWorld #
@@ -36,16 +36,20 @@ To borrow from another source:
 
 # Conclusion: #
 
+- Monte Carlo Methods was a revolutionary concept that applies to Reinforcement Learning, many concepts that involve randomness and problem solving, as mentioned above.
 
+- Monte Carlo involves running through the entire episode of calculations, using state-action pairs, averaging episodes, and  continuously updating policy [3]
 
+- Monte Carlo methods also apply to  TD (temporal differences) for calculating values:
+ - In Monte Carlo, the G function is the TOTAL REWARD for everything
+ -	So Monte Carlo is about whatever rewards ACTUALLY HAPPENED
+ -	The TD is about the estimated rewards for that episode/epoch [also, reference #3]
 
-
-
-
-
+-------------------------------------------------------------------------------------------------------------------------------
 
 
 [1] = https://en.wikipedia.org/wiki/Monte_Carlo_method
 
 [2] = Dr. Hart slides, Regis University 2018
 
+[3] = paraphrase of something Dr. Hart said.
