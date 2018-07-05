@@ -19,6 +19,11 @@ In this blog, we will discuss the Monte Carlo Method (a fundamental concept in R
 
 Now that we are caught up, "Monte Carlo methods are a broad class of computational algorithms that rely on repeated random sampling to obtain numerical results. Their essential idea is using randomness to solve problems that might be deterministic in principle." [1] It might also interest the reader to know that Monte Carlo methods can also be applied to "what if" scenarios, computer graphics, Artificial intelligence for games, and even Finance and Business!!! [same source] 
 
+
+![07-05-18 monte carlo rewards and decimals](https://user-images.githubusercontent.com/22970879/42337126-fa95520c-8042-11e8-8fe2-c8fc421fd139.PNG)
+
+
+
 To borrow from another source:
 
 - Monte carlo records info from running the entire simulation
